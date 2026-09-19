@@ -1,0 +1,6 @@
+{
+  "name": "Patient Record Simplifier & Health Companion Agent",
+  "description": "An intelligent clinical record simplifier that automatically parses patient documents on ingestion, translates medical jargon into plain language, deterministically flags abnormal values, recommends medical specialists, and provides grounded Q&A.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

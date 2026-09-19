@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #111113;
+  --surface: #1B1B1E;
+  --surface-subtle: #232328;
+  --border: rgba(255, 255, 255, 0.1);
+  --ink: #FFFFFF;
+  --ink-muted: rgba(255, 255, 255, 0.6);
+  --accent: #FF4D00;
+  --accent-hover: #ff6a26;
+}
+
+body {
+  background-color: #111113;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #FF4D00;
+  color: #111113;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111113;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.mono {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.display {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.font-jetbrains {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.card-brutalist {
+  background: #1B1B1E;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
